@@ -108,11 +108,6 @@ namespace CityInfo.API.Controllers
             int pointOfInterestId,
             JsonPatchDocument<PointOfInterestForUpdateDto> patchDocument)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
             var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
             if (city == null)
             {
@@ -137,8 +132,34 @@ namespace CityInfo.API.Controllers
                 return BadRequest(ModelState);
             }
 
+            if(!TryValidateModel(pointOfInterestToPatch))
+            {
+                return BadRequest(ModelState);
+            }
+
             pointOfInterestToUpdate.Name = pointOfInterestToPatch.Name;
             pointOfInterestToUpdate.Description = pointOfInterestToPatch.Description;
+            return NoContent();
+        }
+
+        [HttpDelete("{pointOfInterestId}")]
+        public ActionResult DeletePointOfInterest(
+            int cityId,
+            int pointOfInterestId)
+        {
+            var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
+            if (city == null)
+            {
+                return NotFound();
+            }
+
+            var pointOfInterestToDelete = city.PointsOfInterest.FirstOrDefault(p => p.Id == pointOfInterestId);
+            if (pointOfInterestToDelete == null)
+            {
+                return NotFound();
+            }
+
+            city.PointsOfInterest.Remove(pointOfInterestToDelete);
             return NoContent();
         }
 
