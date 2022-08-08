@@ -29,3 +29,13 @@ D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\Microsoft.AspNetC
 D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\Serilog.dll
+D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\Serilog.Sinks.File.dll
+D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\Serilog.AspNetCore.dll
+D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
