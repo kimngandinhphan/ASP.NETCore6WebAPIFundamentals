@@ -39,3 +39,4 @@ D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\Serilog.Extension
 D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
 D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
 D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+D:\Projects\.NET\CityInformation\CityInfo.API\bin\Debug\net6.0\appsettings.Production.json
